@@ -1,0 +1,12 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Gap between columns */
+  }
+
+  /* Style for individual components */
+  .component {
+    border: 1px solid #ddd; /* Border for components */
+    padding: 20px; /* Padding for components */
+    text-align: center; /* Center text */
+  }
